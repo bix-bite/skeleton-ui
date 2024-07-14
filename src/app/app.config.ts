@@ -10,7 +10,7 @@ export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideAnimationsAsync(),
     provideAuth0({
       domain: 'dev-v4u2qqnm8yh4gmsg.us.auth0.com',
-      clientId: 'OVk7QHpBepsQW8oW1EkqR95h80FeAvKL',
+      clientId: 'S468UA4PCB663kLzWcObt8VAOeJjQYWW',
       authorizationParams: {
         redirect_uri: window.location.origin
       }
